@@ -10,7 +10,7 @@ request(`https://api.mcsrvstat.us/bedrock/2/IP/Port`, function (error, response,
   const TroxyToplamAktif = json_body.players.max
        const snorscode = new EmbedBuilder()
        .setTitle("SunucuİSİM - Stats")
-       .setDescription(`IP: SunucuIP\nPort: 19132\n\nDurum: **${TroxyAktif}/${TroxyToplamAktif}**`)
+       .setDescription(`IP: yakinda\nPort: 19132\n\nDurum: **${TroxyAktif}/${TroxyToplamAktif}**`)
        .setColor("#ff0000")
   message.channel.send({embeds: [snorscode]})
 
